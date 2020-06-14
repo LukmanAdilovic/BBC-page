@@ -1,0 +1,367 @@
+<html>
+ <head>
+   <title>BBC News</title>
+   <link href='https://fonts.googleapis.com/css?family=Aguafina Script' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
+   <style type="text/css">
+
+      #topbar {
+        width: 100%;
+        margin: 0 auto;
+        height: 40px;
+        background-color: black;
+        color: white;
+      }
+      body{
+        margin: 0;
+        padding: 0;
+        font-family: freesans, sans-serif;
+      }
+      #logo{
+        margin-top: 7px;
+        margin-left: 140px;
+        width: 90px;
+        float:left;
+        margin-right: 8px;
+      }
+      .topbar-section{
+        float:left;
+        border-left: 1px #CCCC solid;
+        height: 100%;
+
+      }
+      #signin-image{
+        width: 25px;
+        margin: 12px 15px;
+        float: left;
+      }
+      #signin-text{
+        font-weight: bold;
+        font-size: 90%;
+        position: relative;
+        top:14px;
+        margin-right: 80px;
+      }
+      .topbar-menu{
+        font-weight:bold;
+        font-size: 90%;
+        padding: 14px 15px 0 15px;
+        height: 27px;
+      }
+      #more-arrow{
+        margin-left: 40px;
+        width: 13px
+      }
+      #search-box{
+        background-color:  #fdfefe;
+        border: none;
+        font-weight: bold;
+        font-size: 12px;
+        padding:5px;
+        margin: 6px 0 5px 14px;
+        float: left;
+        color: #b3b6b7;
+      }
+      #trazilica-search{
+        height: 20px;
+        margin-top:8px;
+        margin-left: -25px;
+      }
+      .clear{
+        clear:both;
+      }
+      #menu-bar-crveni{
+        background-color:   #5b2c6f;
+        width: 100%;
+        height: 70px;
+      }
+      #menu-bar{
+        width: 1000px;
+        margin: 0;
+      }
+      h1{
+        padding: 0;
+        margin: 0;
+        color: white;
+        font-size: 40px;
+        font-weight: normal;
+        margin-left: 140px;
+        padding-top: 10px;
+      }
+      p{
+        margin-right: 140px;
+        font-size: 20px;
+        padding: 1450px;
+        margin: -25px;
+        padding-top: 0px;
+        position: absolute;
+        text-align:right;
+        font-family: Aguafina Script;
+        color: white;
+      }
+      #menu-bar-2-crveni{
+        background-color:  #4a235a;
+        width: 100%;
+        height: 30px;
+      }
+      #menu-bar-2 a{
+        color: white;
+        padding:5px 150px 5px 140px;
+        text-decoration:none;
+        border-right: 1px solid #d0d3d4;
+        height: 100%;
+        position: relative;
+        top: 5px;
+        font-weight: bold;
+        font-style: italic;
+      }
+      #menu-bar-2 a:hover{
+        text-decoration: underline;
+      }
+      .no-border{
+        border: none !important;
+      }
+      h2{
+        font-size: 20px;
+        margin: 8px;
+        padding: 30px;
+        font-family: 'ABeeZee';
+        color: #3d4345;
+        border-bottom: 3px solid #d0d3d4;
+        width: 195px;
+        height: 2px
+      }
+      h3{
+        font-size: 21px;
+        margin: 28px;
+        color: #3d4345;
+        border-left: 3px solid  #e74c3c ;
+        height: 22px;
+        padding: 5px;
+      }
+      #main-article a{
+        margin-left: 35px;
+        position: absolute;
+        left: 10px;
+        padding-left: 5px;
+        margin-top: 5px;ž
+
+      }
+      #naslov-clanka{
+        font-weight: bold;
+        padding-top: 180px;
+        width:320px;
+        margin-left: 27px;
+        font-size: 22px;
+        font-family: 'Allerta';
+      }
+      #tekst-prvi a{
+        font-family: 'Allerta';
+        font-weight: normal;
+        width:340px;
+        color: #3d4345;
+        margin-left: 37px;
+        margin-top: 35px;
+        text-decoration: none;
+        text-align: left;
+        font-size: 17px
+      }
+      #druga-slika{
+        position: absolute;
+        margin-left: 360px;
+        margin-top: -232px;
+      }
+      #naslov-drugi a{
+        font-size: 22px;
+        font-family: 'Allerta';
+        width: 380px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        margin-top: -30px;
+        margin-left: 395px;
+        text-align: left;
+      }
+      #tekst-drugi a{
+        font-family: 'Allerta';
+        font-weight: normal;
+        width: 340px;
+        text-decoration: none;
+        text-align: left;
+        color: #3d4345;
+        margin-left: 395px;
+        margin-top: 35px;
+        font-size: 17px;
+      }
+      #treca-slika{
+        position: absolute;
+        margin-left: 745px;
+        margin-top: -232px;
+        border-right: 3px solid #d0d3d4;
+        width: 370px;
+        height: 150px;
+      }
+      #naslov-treci a{
+        font-size: 22px;
+        font-family: 'Allerta';
+        width: 385px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        margin-top: -30px;
+        margin-left: 775px;
+        text-align: left;
+      }
+      #tekst-treci a{
+        font-family: 'Allerta';
+        font-weight: normal;
+        width: 340px;
+        text-decoration: none;
+        text-align: left;
+        color: #3d4345;
+        margin-left: 775px;
+        margin-top: 35px;
+        font-size: 17px;
+      }
+      #watch-listen{
+        margin-left: 60px;
+        padding-left: 1100px;
+        text-decoration: none;
+      }
+      h4{
+
+        margin-top: -290px;
+        font-weight: normal;
+        color: #3d4345;
+        font-size: 21px;
+      }
+      #desna-strana{
+        float: left;
+        width: 120px;
+        margin-left: 0px;
+      }
+      #link a{
+        text-decoration: none;
+        color:#3d4345;
+        margin-top: 15px;
+        padding-left: 70px;
+        width: 40px;
+
+      }
+      #desna-strana2{
+        float: left;
+        width: 120px;
+        margin-left: -120px;
+        padding-top: 70px;
+      }
+
+   </style>
+ </head>
+ <body>
+  <div id="topbar">
+      <img id="logo" src="images/bbc-logo.jpg">
+      <div id="signin-div" class="topbar-section">
+        <img id="signin-image"src="images/signin.jpg">
+        <span id="signin-text">Sign in</span>
+    </div>
+
+    <div class="topbar-section topbar-menu">
+      Home
+    </div>
+    <div class="topbar-section topbar-menu">
+      News
+    </div>
+    <div class="topbar-section topbar-menu">
+      Sport
+    </div>
+    <div class="topbar-section topbar-menu">
+      Real
+    </div>
+    <div class="topbar-section topbar-menu">
+      Worklife
+    </div>
+    <div class="topbar-section topbar-menu">
+      Travel
+    </div>
+    <div class="topbar-section topbar-menu">
+      Future
+    </div>
+    <div class="topbar-section topbar-menu">
+      Culture
+    </div>
+    <div class="topbar-section topbar-menu">
+      More
+      <img id="more-arrow"src="images/strelica.jpg">
+    </div>
+
+    <div class="topbar-section">
+      <input id="search-box" type="text" value="Search">
+      <input type="image" id="trazilica-search" src="images/trazilica.jpg">
+    </div>
+ </div>
+
+ <div class="clear"></div>
+ <div id="menu-bar-crveni">
+   <div id="menu-bar">
+      <h1>NEWS</h1>
+      <p>LuxAdi</p>
+ </div>
+    <div id="menu-bar-2-crveni">
+      <div id="menu-bar-2">
+          <a href="https://htmlcolorcodes.com/">Middle East</a>
+            <a href="Europe">Europe</a>
+              <a href="America">America</a>
+                <a href="https://www.trtworld.com/" class="no-border">Asia</a>
+
+      </div>
+    </div>
+</div>
+ <div class="clear"></div>
+ <div id="main-article">
+     <h2>Welcome to BBC.com</h2>
+     <h3>News</h3>
+     <p><a href="https://www.bbc.com/news/world-europe-50643705"><img src="images/putin1.jpg"></a></p>
+     <div id="naslov-clanka">
+     Russia to label some jurnalists 'foreign agents'
+   </div>
+  <div id="tekst-prvi">
+     <p><a href="https://www.bbc.com/news/world-europe-50643705">A much-criticised "foregin agent" law is expanded to target certain journalists and bloggers.</a>
+  </div>
+<div id="druga-slika">
+ <p><a href="https://www.bbc.com/news/world-europe-50659179"><img src="images/drugaslika.jpg"></a>
+</div>
+<div id="naslov-drugi">
+  <p><a href="https://www.bbc.com/news/world-europe-50659179">Germany expels Russia diplomatc over Berlin murder</a>
+</div>
+   <div id="tekst-drugi">
+     <p><a href="https://www.bbc.com/news/world-europe-50659179">The pair are told to leave months after a Georgian national was shot dead in a park.</a>
+   </div>
+<div id="treca-slika">
+<p><a href="https://www.bbc.com/news/world-us-canada-50651514"><img src="images/trecaslika.jpg"></a>
+</div>
+<div id="naslov-treci">
+  <p><a href="https://www.bbc.com/news/world-us-canada-50651514">Law experts tell committee he should be removed</a>
+</div>
+<div id="tekst-treci">
+  <p><a href="https://www.bbc.com/news/world-us-canada-50651514">There is no doubt that President Donald Trump's actions require him to be removed from office</a>
+</div>
+
+ </div>
+<div class="clear"></div>
+   <div id="watch-listen">
+     <h4>Watch/Listen</h4>
+
+       <div id="link">
+
+       <a href="https://www.bbc.com/future/article/20200610-how-china-can-cut-co2-emissions-with-sustainable-buildings"><img id="desna-strana" src="images/prva.jpg"></a>
+       </div>
+
+      <div id="link1">
+
+      <a href="https://www.bbc.com/culture/article/20200612-black-lives-matter-protests-why-are-statues-so-powerful"><img id="desna-strana2" src="images/druga.jpg"></a>
+      </div>
+   </div>
+
+ </body>
+
+</html>
